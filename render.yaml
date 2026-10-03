@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: pettrace-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.12
+      - key: AZURE_OPENAI_API_KEY
+        sync: false
+      - key: AZURE_OPENAI_CHAT_COMPLETIONS_URL
+        sync: false
+      - key: SERPER_API_KEY
+        sync: false
+      # Comma-separated frontend origins, e.g. https://pettrace.vercel.app
+      - key: ALLOWED_ORIGINS
+        sync: false
