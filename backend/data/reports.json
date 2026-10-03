@@ -1,0 +1,83 @@
+[
+  {
+    "id": "report-001",
+    "pet_name": "Milo",
+    "report_type": "found",
+    "description": "Small orange tabby cat with white paws found near a community garden. Friendly and wearing a blue collar.",
+    "location": "Oakwood neighborhood, north Seattle",
+    "report_date": "2026-09-28",
+    "characteristics": {
+      "species": "cat",
+      "breed": "domestic shorthair",
+      "colors": ["orange", "white"],
+      "size": "small",
+      "markings": ["tabby stripes", "white paws"],
+      "distinctive_features": ["blue collar"]
+    }
+  },
+  {
+    "id": "report-002",
+    "pet_name": "Unknown",
+    "report_type": "found",
+    "description": "Medium black and tan dog, floppy ears, seen wandering by Pine Street market. Calm temperament.",
+    "location": "Pine Street, Capitol Hill, Seattle",
+    "report_date": "2026-09-25",
+    "characteristics": {
+      "species": "dog",
+      "breed": "mixed breed",
+      "colors": ["black", "tan"],
+      "size": "medium",
+      "markings": ["tan eyebrows", "floppy ears"],
+      "distinctive_features": []
+    }
+  },
+  {
+    "id": "report-003",
+    "pet_name": "Luna",
+    "report_type": "lost",
+    "description": "Gray long-haired cat with green eyes missing from the Ravenna area. Has a white patch on her chest.",
+    "location": "Ravenna, north Seattle",
+    "report_date": "2026-09-21",
+    "characteristics": {
+      "species": "cat",
+      "breed": "domestic longhair",
+      "colors": ["gray"],
+      "size": "medium",
+      "markings": ["white chest patch", "green eyes"],
+      "distinctive_features": ["long hair"]
+    }
+  },
+  {
+    "id": "report-004",
+    "pet_name": "Peanut",
+    "report_type": "found",
+    "description": "Tiny cream-colored dog with a red harness found near Green Lake. Curly coat and short legs.",
+    "location": "Green Lake, Seattle",
+    "report_date": "2026-09-30",
+    "characteristics": {
+      "species": "dog",
+      "breed": "poodle mix",
+      "colors": ["cream"],
+      "size": "small",
+      "markings": ["curly coat", "short legs"],
+      "distinctive_features": ["red harness"]
+    }
+  },
+  {
+    "id": "report-005",
+    "pet_name": "Clover",
+    "report_type": "found",
+    "description": "White rabbit with light brown spots found in a yard close to Maple Leaf playground.",
+    "location": "Maple Leaf, Seattle",
+    "report_date": "2026-09-18",
+    "characteristics": {
+      "species": "rabbit",
+      "breed": "domestic rabbit",
+      "colors": ["white", "light brown"],
+      "size": "small",
+      "markings": ["brown spots"],
+      "distinctive_features": ["upright ears"]
+    }
+  }
+]
+
